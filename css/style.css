@@ -1,4 +1,4 @@
-
+/*Body CSS*/
 .body,html{
     height:100%;
     font-family:'Rubik Mono One', sans-serif;
@@ -6,6 +6,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+/*Body CSS ends*/
+
+/*Navigation CSS*/
 .navbar-text{
     color:white;
 
@@ -23,6 +26,10 @@
     overflow :hidden;
     color: whitesmoke;
 }
+.navbar-toggler{
+    color:white;
+}
+
 a{
     float: left;
     padding-left: 30px;
@@ -41,6 +48,9 @@ a:hover{
 .nav-link:hover{
     color: orange;
 
+/*Navigation bar CSS ends*/
+
+/*Carousel css*/
 }
 .carousel-inner img{
     width:100%;
@@ -55,7 +65,16 @@ a:hover{
 }
 .container-fluid{
     background-size:cover;
+    padding-left: 0px;
+    padding-right: 0px;
 }
+#carousel-image{
+    width:100%;
+}
+
+/*Carousel css ends*/
+
+/*Footer css*/
 #footer-element{
     background-color:#343a40;
     height:200px;
@@ -70,7 +89,15 @@ a:hover{
     margin-right: 0px;
     width:100%;
     padding-bottom: 20px;
+    clear:both;
+    color: white;
 }
+
+/*Carousel css ends*/
+
+/*Jumbotron css*/
 .jumbotron{
     background:darkgray;
 }
+
+/*Jumbotron css ends*/
