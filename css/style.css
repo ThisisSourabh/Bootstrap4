@@ -1,4 +1,5 @@
 /*Body CSS*/
+
 .body,html{
     height:100%;
     font-family:'Rubik Mono One', sans-serif;
@@ -15,11 +16,13 @@
 }
 .nav-link{
     color:white;
-    float: right;
+    float: left;
 }
 .navbar-brand:hover{
     size:20px;
 }
+
+
 .topnav{
     list-style-type: none;
     padding-left: 20px;
@@ -29,7 +32,16 @@
 .navbar-toggler{
     color:white;
 }
+.navbar-brand{
+    float:left;
+}
 
+
+.jumbotron{
+    margin:auto;
+    padding-left: 0px;
+
+}
 a{
     float: left;
     padding-left: 30px;
@@ -41,17 +53,37 @@ a{
     height:20%;
     text-emphasis :inheri
 }
-a:hover{
+#navbarDropdown{
+    color:white;
+}
+#navbarDropdown:hover{
+    color:orange;
+    font-size: 30px;
+}
+.navbar-toggler{
+    color: white;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+}
+#searchButton{
+    color:black;
+    background-color: white;
+    border-color: white;
+}
+
+/*a:hover{
     font-size:30px;
     overflow: hidden;
 }
 .nav-link:hover{
     color: orange;
-
+*/
 /*Navigation bar CSS ends*/
 
 /*Carousel css*/
-}
+
 .carousel-inner img{
     width:100%;
     height:100%;
@@ -62,11 +94,6 @@ a:hover{
 }
 .carousel-indicators li{
     align-items: center;
-}
-.container-fluid{
-    background-size:cover;
-    padding-left: 0px;
-    padding-right: 0px;
 }
 #carousel-image{
     width:100%;
@@ -84,7 +111,7 @@ a:hover{
     background-color: #343a40;
     padding-left: 20px;
     padding-top: 20px;
-    text-align: left;
+    text-align: center;
     margin-left:0px;
     margin-right: 0px;
     width:100%;
@@ -96,8 +123,11 @@ a:hover{
 /*Carousel css ends*/
 
 /*Jumbotron css*/
-.jumbotron{
-    background:darkgray;
+#jumbotron{
+    background: white;
+    margin-bottom: 0;
+    padding-left: 20px;
+
 }
 
 /*Jumbotron css ends*/
